@@ -4,7 +4,9 @@
 
 L'obiettivo è predire la resistenza a compressione del calcestruzzo in MPa (megapascal), avendo a disposizione la quantità dei componenti e la sua età, utilizzando [un dataset fornito da UCI](https://archive.ics.uci.edu/ml/datasets/Concrete+Compressive+Strength).
 
-Dopo analisi esplorativa del dataset, calcolo degli indici di correlazione di Spearman e indagine sulla rilevanza delle feature con standardizzazione e regressione Lasso vengono generati e confrontati diversi modelli di regressione utilizzando nested-cross-validation, in particolare:
+Dopo analisi esplorativa del dataset, calcolo degli indici di correlazione di Spearman e indagine sulla rilevanza delle feature con standardizzazione e regressione Lasso vengono generati e confrontati diversi modelli di regressione con nested-cross-validation.
+
+In particolare vengono confrontati e analizzati i risultati ottenuti con:
 
 * Regressione polinomiale
 * Regressione Ridge (regolarizzazione L2)
