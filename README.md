@@ -1,6 +1,6 @@
 # Concrete compressive strength prediction - IT
 
-Progetto di Programmazione di Applicazioni Data Intensive a.a. 2019/20 - Paolo Garroni
+## Progetto di Programmazione di Applicazioni Data Intensive a.a. 2019/20 - Paolo Garroni
 
 L'obiettivo è predire la resistenza a compressione del calcestruzzo in MPa (megapascal), avendo a disposizione la quantità dei componenti e la sua età, utilizzando [un dataset fornito da UCI](https://archive.ics.uci.edu/ml/datasets/Concrete+Compressive+Strength).
 
